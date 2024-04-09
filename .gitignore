@@ -1,6 +1,5 @@
-*
+google-chrome
+wireshark
 
-!nvim/
-!.tmux.conf
 !.gitignore
 
