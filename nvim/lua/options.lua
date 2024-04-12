@@ -8,3 +8,4 @@ vim.opt.shiftwidth = 4           -- Size of an indent
 vim.opt.expandtab = true         -- Use spaces instead of tabs
 vim.opt.smartindent = true       -- Insert indents automatically
 vim.opt.wrap = false             -- Disable line wrap
+vim.opt.termguicolors = true
