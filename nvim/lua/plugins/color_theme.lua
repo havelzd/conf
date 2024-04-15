@@ -26,7 +26,21 @@ return {
       require("tokyonight").setup({
         style = "storm",
       })
-      vim.cmd.colorscheme("tokyonight")
+      -- vim.cmd.colorscheme("tokyonight")
+    end,
+  },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    config = function()
+      require("rose-pine").setup({
+        disable_background = true,
+        styles = {
+          italic = false,
+        },
+      })
+
+      vim.cmd.colorscheme("rose-pine")
     end,
   },
 }
