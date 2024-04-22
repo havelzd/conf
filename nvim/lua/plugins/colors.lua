@@ -35,7 +35,7 @@ return {
         config = function()
             require("rose-pine").setup({
                 -- disable_background = true,
-                dark_variant = "moon",
+                dark_variant = "moon", -- auto,  main / moon / dawn
                 styles = {
                     italic = false,
                 },
